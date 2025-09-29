@@ -4,7 +4,6 @@ word_list = ["Aguacate", "Mariposa", "Platano"]
 adivinanzas = ["Agua pasa por mi casa, cate de mi corazón", "Antes huevecito, después capullito y más tarde volaré como un pajarito. ¿Sabes quién soy?", "Oro parece, plata no es. Abran las cortinas y verán lo que es."]
 stages = ["⏩⏩⏩⏩⏩❌", "⏩⏩⏩⏩⏩ ❌", "⏩⏩⏩⏩  ❌", "⏩⏩⏩   ❌",  "⏩⏩    ❌", "⏩    ❌"]
 
-
 chosen_word = random.choice(word_list)
 
 if chosen_word == "Aguacate":
@@ -13,8 +12,6 @@ elif chosen_word == "Mariposa":
     adivinanza = adivinanzas[1]
 elif chosen_word == "Platano":
     adivinanza = adivinanzas[2]
-
-
 
 print('''
 
@@ -31,7 +28,6 @@ chosen_word = chosen_word.upper()
 
 for i in range(len(chosen_word)):
     print("_", end=" ")
-
 
 game_over = False
 correct_letters = []
